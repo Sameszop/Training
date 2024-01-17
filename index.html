@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electron Communication</title>
+  <script src="./preload.js"></script>
 </head>
 <body>
-    <button>Hello</button>
+  <h1>Electron Communication Example</h1>
+  <button id="trigger">Send Message to Main Process</button>
+  <div id="response-from-main"></div>
+  <script src="./script.js"></script>
 </body>
 </html>

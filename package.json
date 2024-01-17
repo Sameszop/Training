@@ -1,6 +1,6 @@
 {
   "name": "Eudaimonia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "main.js",
   "scripts": {
@@ -19,11 +19,11 @@
       "category": "your.app.category.type"
     },
     "win": {
-      "target": "nsis",
-      "requestedExecutionLevel": "requireAdministrator"
+      "target": "nsis"
     }
   },
   "devDependencies": {
+    "builder": "^5.0.0",
     "electron": "^28.1.4",
     "electron-builder": "^24.9.1"
   },
@@ -32,5 +32,8 @@
     "releaseType": "release",
     "owner": "Sameszop",
     "repo": "Training"
+  },
+  "dependencies": {
+    "is-admin": "^4.0.0"
   }
 }
